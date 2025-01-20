@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Jupiterbold05/Platinum-V1";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D";
+global.gurl = process.env.GURL || "";
+global.website = process.env.GURL || "";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/gvdQSvi.jpeg";
-global.devs = "2348084644182";
-global.sudo = process.env.SUDO || "2349071978357";
-global.owner = process.env.OWNER_NUMBER || "2348084644182";
+global.devs = "2349040234698";
+global.sudo = process.env.SUDO || "";
+global.owner = process.env.OWNER_NUMBER || "2349040234698";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "+",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍™",
-  author: process.env.PACK_AUTHER || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  packname: process.env.PACK_NAME || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
+  caption: process.env.CAPTION || "O.f.f.i.c.i.a.l G•G ☠️👑🌍™",
+  author: process.env.PACK_AUTHER || "O.f.f.i.c.i.a.l G•G ☠️👑🌍",
+  packname: process.env.PACK_NAME || "O.f.f.i.c.i.a.l G•G☠️👑🌍",
   botname: process.env.BOT_NAME || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  ownername: process.env.OWNER_NAME || "ᴀʙᴏᴠᴇ ᴀʟʟ ☠️👑🌍",
+  ownername: process.env.OWNER_NAME || "O.f.f.i.c.i.a.l G•G☠️👑🌍",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
