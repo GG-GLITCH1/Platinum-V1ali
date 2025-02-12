@@ -6,9 +6,9 @@
    "type": "commonjs",
    "scripts": {
       "run": "pm2 start . --deep-monitoring --attach --name JUPITERBOLD05 || node .",
-      "JUPITERBOLD05 ": "pm2 start . --deep-monitoring --attach --name JUPITERBOLD05 || node .",
-      "start": "pm2 start . --attach --name JUPITERBOLD05",
-      "stop": "pm2 stop JUPITERBOLD05",
+      "Platinum-v1 ": "pm2 start . --deep-monitoring --attach --name Platinum-v1 || node .",
+      "start": "pm2 start . --attach --name Platinum-v1",
+      "stop": "pm2 stop Platinum-v1",
       "heroku-postbuild": "git clone https://github.com/Jupiterbold05/Platinum-V1.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
       "fis-heroku-postbuild": "git clone https://github.com/Jupiterbold05/Platinum-V1.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
